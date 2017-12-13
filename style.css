@@ -1,0 +1,67 @@
+body{
+  font-family: Arial;
+  background-color: #d3d3d3;
+}
+
+.center{
+  position: sticky;
+  margin: 0 auto;
+  width: 30%;
+  top: 25%;
+}
+
+img{
+  position: sticky;
+  margin: auto;
+  display: block;
+}
+
+p{
+  text-align: center;
+}
+
+.bottom-bar{
+  background-color: #b3b3b3;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.right-align{
+  width: 40%;
+  float: right;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  padding-right: 1%;
+}
+
+.left-align{
+  width: 40%;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+}
+
+.text{
+  padding: 10px;
+}
+
+.buttons{
+  position: absolute;
+  width: 70%;
+  right: 10%;
+}
+
+.menu-bar{
+  position: fixed;
+  right: 2%;
+}
+
+input{
+  position: sticky;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
